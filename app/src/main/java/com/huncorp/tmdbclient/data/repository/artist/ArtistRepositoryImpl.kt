@@ -2,6 +2,9 @@ package com.huncorp.tmdbclient.data.repository.artist
 
 import android.util.Log
 import com.huncorp.tmdbclient.data.model.artist.Artist
+import com.huncorp.tmdbclient.data.repository.artist.datasource.ArtistCacheDataSource
+import com.huncorp.tmdbclient.data.repository.artist.datasource.ArtistLocalDataSource
+import com.huncorp.tmdbclient.data.repository.artist.datasource.ArtistRemoteDataSource
 import com.huncorp.tmdbclient.domain.repository.ArtistRepository
 import java.lang.Exception
 

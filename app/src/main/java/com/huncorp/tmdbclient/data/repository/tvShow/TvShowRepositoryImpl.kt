@@ -2,6 +2,9 @@ package com.huncorp.tmdbclient.data.repository.tvShow
 
 import android.util.Log
 import com.huncorp.tmdbclient.data.model.tvShow.TvShow
+import com.huncorp.tmdbclient.data.repository.tvShow.datasource.TvShowCacheDataSource
+import com.huncorp.tmdbclient.data.repository.tvShow.datasource.TvShowLocalDataSource
+import com.huncorp.tmdbclient.data.repository.tvShow.datasource.TvShowRemoteDataSource
 import com.huncorp.tmdbclient.domain.repository.TvShowRepository
 import java.lang.Exception
 

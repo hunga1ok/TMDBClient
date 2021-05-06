@@ -1,7 +1,8 @@
-package com.huncorp.tmdbclient.data.repository.artist
+package com.huncorp.tmdbclient.data.repository.artist.datasourceImpl
 
 import com.huncorp.tmdbclient.data.db.ArtistDao
 import com.huncorp.tmdbclient.data.model.artist.Artist
+import com.huncorp.tmdbclient.data.repository.artist.datasource.ArtistLocalDataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

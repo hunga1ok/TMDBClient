@@ -1,7 +1,8 @@
-package com.huncorp.tmdbclient.data.repository.tvShow
+package com.huncorp.tmdbclient.data.repository.tvShow.datasourceImpl
 
 import com.huncorp.tmdbclient.data.db.TvShowDao
 import com.huncorp.tmdbclient.data.model.tvShow.TvShow
+import com.huncorp.tmdbclient.data.repository.tvShow.datasource.TvShowLocalDataSource
 
 class TvShowLocalDataSourceImpl(private val tvShowDao: TvShowDao): TvShowLocalDataSource {
     override suspend fun getTvShowsFromLocal(): List<TvShow> {

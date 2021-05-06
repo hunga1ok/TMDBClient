@@ -2,6 +2,9 @@ package com.huncorp.tmdbclient.data.repository.movie
 
 import android.util.Log
 import com.huncorp.tmdbclient.data.model.movie.Movie
+import com.huncorp.tmdbclient.data.repository.movie.datasource.MovieCacheDataSource
+import com.huncorp.tmdbclient.data.repository.movie.datasource.MovieLocalDataSource
+import com.huncorp.tmdbclient.data.repository.movie.datasource.MovieRemoteDataSource
 import com.huncorp.tmdbclient.domain.repository.MovieRepository
 import java.lang.Exception
 

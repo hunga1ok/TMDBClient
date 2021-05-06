@@ -1,4 +1,4 @@
-package com.huncorp.tmdbclient.data.repository.tvShow
+package com.huncorp.tmdbclient.data.repository.tvShow.datasource
 
 import com.huncorp.tmdbclient.data.model.tvShow.TvShow
 

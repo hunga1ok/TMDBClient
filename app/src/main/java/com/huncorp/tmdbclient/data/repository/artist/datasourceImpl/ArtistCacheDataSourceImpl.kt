@@ -1,6 +1,7 @@
-package com.huncorp.tmdbclient.data.repository.artist
+package com.huncorp.tmdbclient.data.repository.artist.datasourceImpl
 
 import com.huncorp.tmdbclient.data.model.artist.Artist
+import com.huncorp.tmdbclient.data.repository.artist.datasource.ArtistCacheDataSource
 
 class ArtistCacheDataSourceImpl: ArtistCacheDataSource {
     private var artistList = ArrayList<Artist>()
