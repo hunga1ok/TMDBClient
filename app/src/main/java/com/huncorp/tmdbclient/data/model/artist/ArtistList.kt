@@ -1,4 +1,4 @@
-package com.huncorp.tmdbclient.data
+package com.huncorp.tmdbclient.data.model.artist
 
 import com.google.gson.annotations.SerializedName
 
