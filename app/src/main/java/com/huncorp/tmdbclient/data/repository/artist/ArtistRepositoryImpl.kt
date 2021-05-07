@@ -9,9 +9,9 @@ import com.huncorp.tmdbclient.domain.repository.ArtistRepository
 import java.lang.Exception
 
 class ArtistRepositoryImpl(
-    private val artistCacheDataSource: ArtistCacheDataSource,
+    private val artistRemoteDataSource: ArtistRemoteDataSource,
     private val artistLocalDataSource: ArtistLocalDataSource,
-    private val artistRemoteDataSource: ArtistRemoteDataSource
+    private val artistCacheDataSource: ArtistCacheDataSource
 ) : ArtistRepository {
     override suspend fun getArtist(): List<Artist>? {
         return getArtistsFromCache()
